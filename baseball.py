@@ -2,7 +2,6 @@
 
 print('打席数と安打数を入力してください')
 a,b = map(int,input().split())
-
 batting_average = float(b/a)
 
 if batting_average >= 0.3:
